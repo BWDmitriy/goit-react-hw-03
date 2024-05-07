@@ -83,3 +83,7 @@ h1 {
   font-size: 14px;
   cursor: pointer;
 }
+.contact-list-div {
+  display: flex;
+  flex-direction: column;
+}
