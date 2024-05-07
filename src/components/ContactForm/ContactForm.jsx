@@ -22,7 +22,7 @@ const ContactForm = ({ addContact }) => {
         resetForm();
       }}
     >
-      <Form>
+      <Form className="contact-form">
         <label htmlFor="name">Name</label>
         <Field id="name" name="name" placeholder="Enter name" />
         <ErrorMessage name="name" component="div" />

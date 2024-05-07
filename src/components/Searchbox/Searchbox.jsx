@@ -4,7 +4,7 @@ export default function SearchBox({ searchQuery, setSearchQuery }) {
  };
 
  return (
-    <div>
+    <div className="search-box">
       <input
         type="text"
         placeholder="Search..."
