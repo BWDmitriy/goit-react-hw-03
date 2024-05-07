@@ -1,4 +1,4 @@
-export default function SearchBox({ searchQuery, setSearchQuery }) {
+function SearchBox({ searchQuery, setSearchQuery }) {
  const handleChange = (event) => {
     setSearchQuery(event.target.value);
  };
@@ -14,3 +14,5 @@ export default function SearchBox({ searchQuery, setSearchQuery }) {
     </div>
  );
 }
+
+export default SearchBox
