@@ -3,7 +3,7 @@ import { nanoid } from 'nanoid';
 import './App.css';
 import ContactForm from '../ContactForm/ContactForm';
 import ContactList from '../ContactList/ContactList';
-import SearchBox from "../SearchBox/SearchBox";
+import Searchbox from "../Searchbox/Searchbox";
 
 function App() {
  const [searchQuery, setSearchQuery] = useState('');
@@ -46,7 +46,7 @@ function App() {
     <div>
       <h1>Phonebook</h1>
       <ContactForm addContact={addContact} />
-      <SearchBox searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
+      <Searchbox searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
       <ContactList contacts={filteredContacts} onDeleteContact={deleteContact} />
     </div>
  );

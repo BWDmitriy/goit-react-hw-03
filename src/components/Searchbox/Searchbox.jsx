@@ -1,4 +1,4 @@
-export default function SearchBox({ searchQuery, setSearchQuery }) {
+export default function Searchbox({ searchQuery, setSearchQuery }) {
  const handleChange = (event) => {
     setSearchQuery(event.target.value);
  };
